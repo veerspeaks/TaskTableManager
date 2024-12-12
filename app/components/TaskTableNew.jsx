@@ -155,7 +155,7 @@ const TaskTableNew = () => {
       headerAlign: 'center',
       renderCell: (params) => (
         <div className="w-full flex justify-center">
-          <span className={`${getStatusColor(params.value)} text-white px-3 py-1 rounded-full text-sm`}>
+          <span className={`${getStatusColor(params.value)} text-white px-3 py-1 mt-3 rounded-full text-sm`}>
             {params.value}
           </span>
         </div>

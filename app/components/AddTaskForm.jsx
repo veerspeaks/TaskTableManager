@@ -67,7 +67,7 @@ const AddTaskForm = ({ addTask, length }) => {
       </select>
       <button
         type="submit"
-        className="bg-blue-500 text-white p-2 rounded w-48"
+        className="bg-gray-500 text-white p-2 rounded-full hover:bg-gray-600 w-48"
       >
         Add
       </button>
